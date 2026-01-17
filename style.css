@@ -1,0 +1,95 @@
+/* Set a modern, easy-to-read font for the whole page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header with light blue background for a calm, nature-inspired look */
+header {
+  background-color: #4da6ff; /* Light blue to complement teal */
+  color: #ffffff; /* White text for contrast */
+  text-align: center;
+  padding: 20px; /* Short padding for height */
+}
+
+/* Style the header heading */
+header h1 {
+  margin: 0;
+  font-size: 3.5em;
+}
+
+/* Style the CTA section as a tall banner with teal background for calmness */
+#cta {
+  background-image: url('img/cta-bg.jpg'); /* Add background image */
+  background-color: rgba(0, 128, 128, 0.9); /* Adjust teal overlay for better blending */
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Center the image */
+  color: #333333; /* Darker text color for better contrast */
+  text-align: center;
+  padding: 50px 20px 100px 20px; /* Reduce top padding to remove extra space above heading */
+  height: 500px; /* Increase height to make the banner taller */
+}
+
+/* Style the main heading to be large and eye-catching */
+#cta h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+/* Style the description paragraph for readability */
+#cta p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style the CTA button to be bright and stand out */
+.cta-button {
+  background-color: #ff6600; /* Bright orange for eye-catching effect */
+  color: #ffffff;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* Style the about section to center it on the page */
+#about {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the columns for even sizing */
+.column {
+  float: left;
+  width: 48%;
+  margin: 1%;
+}
+
+/* Clear floats after columns */
+#about::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the image in the column */
+.column img {
+  width: 400px;
+  height: auto;
+  margin-right: 30px;
+  border-radius: 15px;
+}
+
+/* Style the new information sections */
+#benefits, #how-to {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
