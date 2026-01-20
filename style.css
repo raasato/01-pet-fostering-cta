@@ -93,3 +93,56 @@ header h1 {
   padding: 20px;
   text-align: center;
 }
+
+/* Style the footer with teal background to match the theme */
+footer {
+  background-color: #008080; /* Teal background */
+  color: #ffffff; /* White text for contrast */
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+/* Style footer links */
+footer a {
+  color: #ffffff; /* White links */
+  text-decoration: none;
+}
+
+/* Add underline on hover for footer links */
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Style the contact form section */
+#contact {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the form labels */
+#contact label {
+  display: block;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Style the input fields and textarea */
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #4da6ff; /* Light blue border */
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Style the submit button to match other buttons */
+#contact button {
+  margin-top: 20px;
+}
